@@ -1,7 +1,7 @@
 #!/bin/sh
 
 DIR1=007_bam
-INCOMING=${DIR1}/pg_007_03_tiny1.star_gene_exon_tagged.bam
+INCOMING=${DIR1}/pg_007_03_tiny1.hisat2_gene_exon_tagged.bam
 OUTGOING=${DIR1}/pg_007_04_tiny1.clean_substitution.bam
 #-----------------------------------------------------------------------------80
 # Make directory.

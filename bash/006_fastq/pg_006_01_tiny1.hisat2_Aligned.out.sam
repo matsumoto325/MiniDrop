@@ -1,0 +1,6 @@
+@HD	VN:1.0	SO:unsorted
+@SQ	SN:8	LN:145138636
+@PG	ID:hisat2	PN:hisat2	VN:2.2.2	CL:"/home/matsumoto/miniconda3/envs/minidrop/bin/hisat2-align-s --wrapper basic-0 -p 1 -x 001_data/001_reference/HISAT2_index_chr8/genome_prefix --summary-file 006_fastq/pg_006_01_tiny1.hisat2_summary.txt -S 006_fastq/pg_006_01_tiny1.hisat2_Aligned.out.sam --read-lengths 51,44,21 -U 006_fastq/pg_005_07_tiny1.cb.umi.qc.woAdapter.trimPolyA.fastq"
+TEST.1	0	8	127740694	60	51M	*	0	0	GAATGTCAAGAGGCGAACACACAACGTCTTGGAGCGCCAGAGGAGGAACGA	IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:51	YT:Z:UU	NH:i:1
+TEST.2	0	8	127740348	60	44M	*	0	0	TTTAATGTAACCTTGCTAAAGGAGTGATTTCTATTTCCTTTCTT	IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:44	YT:Z:UU	NH:i:1
+TEST.3	4	*	0	0	*	*	0	0	TTTTTCCCCCAAAAAATTTTT	IIIIIIIIIIIIIIIIIIIII	YT:Z:UU
